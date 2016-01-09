@@ -39,14 +39,14 @@ You have AWS properly configured and have the necessary credentials to create in
 
 Dependencies
 ------------
-boto3 (to access AWS)
-pathos (for multiprocessing)
-requests
-termcolor
+* boto3 (to access AWS)
+* pathos (for multiprocessing)
+* requests
+* termcolor
 
 To-do
 -----
-Save the state of AWS EC2 instances so that they can be terminated via the command line
-Add more sites for public proxies, currently it only queries one site
-Multiprocessing for public proxy checking
-Some clean-up since I put this together from another module I wrote fairly quickly.
+1.  Save the state of AWS EC2 instances so that they can be terminated via the command line
+2.  Add more sites for public proxies, currently it only queries one site
+3.  Multiprocessing for public proxy checking
+4.  Some clean-up since I put this together from another module I wrote fairly quickly.
