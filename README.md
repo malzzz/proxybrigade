@@ -39,8 +39,8 @@ You have AWS properly configured and have the necessary credentials to create in
 
 Dependencies
 ------------
-* boto3 (to access AWS)
-* pathos (for multiprocessing)
+* boto3
+* pathos.multiprocessing
 * requests
 * termcolor
 
