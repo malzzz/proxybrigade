@@ -46,7 +46,7 @@ Dependencies
 
 To-do
 -----
-1.  Save the state of AWS EC2 instances so that they can be terminated via the command line
-2.  Add more sites for public proxies, currently it only queries one site
-3.  Multiprocessing for public proxy checking
+1.  Save the state of AWS EC2 instances so that they can be terminated via the command line.
+2.  Add more sites for public proxies, currently it only queries one site.
+3.  Multiprocessing for public proxy checking.
 4.  Some clean-up since I put this together from another module I wrote fairly quickly.
