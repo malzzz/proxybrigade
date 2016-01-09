@@ -8,7 +8,7 @@ I made this as part of a larger application, but I thought it worked well as a s
 
 Usage
 -----
-`user@computer$ python proxies.py --ec2 [number of ec2 instances] --public [number of public proxies]`
+`$ python proxies.py --ec2 [number of ec2 instances] --public [number of public proxies]`
 
 As a module:
 ```
