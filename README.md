@@ -8,18 +8,29 @@ I made this as part of a larger application, but I thought it worked well as a s
 
 Usage
 -----
-python proxies.py --ec2 [number of ec2 instances] --public [number of public proxies]
+  python proxies.py --ec2 [number of ec2 instances] --public [number of public proxies]
 
-You can also import proxybrigade.proxymanager and use it as a module in your application.
+As a module:
+  import proxybrigade.proxymanager as proxymanager
 
-To create AWS proxies: proxymanager.create_instances(how_many_to_create)
-To terminate instances: proxymanager.terminate_instances()
-List of AWS proxies: proxymanager.ec2proxy.proxy_list
+To create AWS proxies: 
+  proxymanager.create_instances(how_many_to_create)
+  
+To terminate instances: 
+  proxymanager.terminate_instances()
+  
+List of AWS proxies: 
+  proxymanager.ec2proxy.proxy_list
 
-For public proxies:
-Specify the number to get: proxymanager.publicproxy.how_many_to_get = n
-Get public proxies: proxymanager.publicproxy.get_proxies()
-List of (up) public proxies: proxymanager.publicproxy.proxy_list
+
+Specify the (n)umber of public proxies desired: 
+  proxymanager.publicproxy.how_many_to_get = n
+  
+Get and test the proxies: 
+  proxymanager.publicproxy.get_proxies()
+  
+List of (up) public proxies: 
+  proxymanager.publicproxy.proxy_list
 
 Assumptions
 -----------
