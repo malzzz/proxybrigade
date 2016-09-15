@@ -2,6 +2,8 @@
 
 Description
 -----------
+This is kind of a useless repo; however, it's one of the first thing's I wrote, so I'll just keep it here for posterity's sake.
+
 This is a utility for getting proxy servers.  It has functions for getting either private or public proxy servers.  If you need private proxy servers, it can instantiate a specified number of AWS EC2 instances that run tinyproxy.  If public proxy servers are acceptable, it will retrieve a list of proxies and test them sequentially until the specified number is reached.
 
 I made this as part of a larger application, but I thought it worked well as a stand-alone module in the case that someone needs to retrieve/use mutliple proxy servers.
