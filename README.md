@@ -2,7 +2,7 @@
 
 Description
 -----------
-This is kind of a useless repo; however, it's one of the first thing's I wrote, so I'll just keep it here for posterity's sake.
+This is kind of a useless repo; however, it's one of the first things I wrote when learning Python, so it has some nostalgia value (even though, as a general principle, I'm not a fan of dynamically-typed languages).
 
 This is a utility for getting proxy servers.  It has functions for getting either private or public proxy servers.  If you need private proxy servers, it can instantiate a specified number of AWS EC2 instances that run tinyproxy.  If public proxy servers are acceptable, it will retrieve a list of proxies and test them sequentially until the specified number is reached.
 
@@ -45,10 +45,3 @@ Dependencies
 * pathos.multiprocessing
 * requests
 * termcolor
-
-To-do
------
-1.  Save the state of AWS EC2 instances so that they can be terminated via the command line.
-2.  Add more sites for public proxies, currently it only queries one site.
-3.  Multiprocessing for public proxy checking.
-4.  Some clean-up since I put this together from another module I wrote fairly quickly.
